@@ -1,0 +1,14 @@
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<if args="isAllowed()">
+    <a attr="'data-post': $col.getDataPost($row()), title: getLabel()"
+            class=""
+            data-action="add-to-compare">
+        <i class="fas fa-check-square"></i><span>Compare</span>
+
+    </a>
+</if>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="widget_columns">
+        <column name="viewproduct-button">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">View</item>
+                    <item name="displayArea" xsi:type="string">action-primary-area</item>
+                    <item name="bodyTmpl" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/product/viewproduct-button</item>
+                    <item name="component" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/js/product/viewproduct-button</item>
+                    <item name="sortOrder" xsi:type="number">2</item>
+                </item>
+            </argument>
+        </column>
+        <column name="addtocart-button">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Add</item>
+                    <item name="displayArea" xsi:type="string">action-primary-area</item>
+                    <item name="bodyTmpl" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/product/addtocart-button</item>
+                    <item name="component" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/js/product/addtocart-button</item>
+                    <item name="sortOrder" xsi:type="number">2</item>
+                </item>
+            </argument>
+        </column>
+        <column name="review">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Review</item>
+                    <item name="displayArea" xsi:type="string">details-area</item>
+                    <item name="bodyTmpl" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/product/summary</item>
+                    <item name="component" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/js/product/summary</item>
+                    <item name="sortOrder" xsi:type="number">4</item>
+                </item>
+            </argument>
+        </column>
+        <column name="gs-sku">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Sku</item>
+                    <item name="displayArea" xsi:type="string">details-area</item>
+                    <item name="bodyTmpl" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/product/sku</item>
+                    <item name="component" xsi:type="string">Gigasavvy_BetterRecentlyViewedProducts/js/product/sku</item>
+                    <item name="sortOrder" xsi:type="number">1</item>
+                </item>
+            </argument>
+        </column>
+    </columns>
+</listing>
